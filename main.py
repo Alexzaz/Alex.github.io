@@ -241,3 +241,6 @@ if __name__ == "__main__":
     commits = getCommits(path)
     graph = getGraph(commits)
     print(graph)
+    filegraph = open('/home/precious/PycharmProjects/alexzaz.github.io/Commits.dot', 'w')
+    filegraph.write(graph)
+    filegraph.close()
