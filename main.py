@@ -236,7 +236,7 @@ def getGraph(commits=[]):
 
 
 if __name__ == "__main__":
-    path = os.getcwd() # Нынешняя директория
+    path = os.getcwd()  # Нынешняя директория
 
     commits = getCommits(path)
     graph = getGraph(commits)
